@@ -72,6 +72,6 @@
         <br>
         <h1> Total + tramites = {{total+seguro+matricula}} </h1>
 
-        <input *ngIf="seguro!=undefined && matricula!=undefined" (click)="registrarCotizacion()" class="btn" type="submit" value="Registrar cotizacion">
+        <input *ngIf="seguro!=undefined && matricula!=undefined" (click)="registrarCotizacion()" class="btn" type="submit" value="Registrar cotizacion" onClick="this.disabled=true">
     </form>
   </div>
